@@ -11,7 +11,7 @@ function Header() {
     <>
       <nav className={`NavbarItems ${clicked ? "active" : ""}`}>
         <h1 className="nav-logo">
-          <Link to="/">
+          <Link to="">
             <img src={logo} alt="" width="250px" className="mt-2" />
           </Link>
         </h1>
@@ -22,25 +22,25 @@ function Header() {
 
         <ul className={`nav-menu ${clicked ? "active" : ""}`}>
           <li>
-            <Link to="/transport" className="nav-links">
+            <Link to="transport" className="nav-links">
               <i className="fa-solid fa-plane"></i>
               Phương tiện
             </Link>
           </li>
           <li>
-            <Link to="/hotel" className="nav-links">
+            <Link to="hotel" className="nav-links">
               <i className="fa-solid fa-hotel"></i>
               Khách sạn
             </Link>
           </li>
           <li>
-            <Link to="/food" className="nav-links">
+            <Link to="food" className="nav-links">
               <i className="fa-solid fa-utensils"></i>
               Hàng quán
             </Link>
           </li>
           <li>
-            <Link to="/check-in" className="nav-links">
+            <Link to="check-in" className="nav-links">
               <i className="fa-solid fa-location-dot"></i>
               Check-in
             </Link>
