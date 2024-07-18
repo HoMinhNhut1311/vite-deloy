@@ -7,7 +7,7 @@ import ErrorBoundary from "antd/es/alert/ErrorBoundary";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/vite-deloy/">
     <ErrorBoundary>
       <App />
       </ErrorBoundary>

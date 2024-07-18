@@ -42,7 +42,7 @@ function App() {
     <>
       {!location.pathname.includes("/enterprise") && <Header />}
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="" element={<LandingPage />} />
 
         {/* Begin Route Enterprise */}
         <Route path="/enterprise" element={<EnterpriseIndex/>}>
