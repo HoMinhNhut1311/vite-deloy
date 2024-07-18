@@ -45,7 +45,7 @@ function App() {
         <Route path="" element={<LandingPage />} />
 
         {/* Begin Route Enterprise */}
-        <Route path="/enterprise" element={<EnterpriseIndex/>}>
+        <Route path="enterprise" element={<EnterpriseIndex/>}>
             {/* <Route index element={<EtpHome/>}></Route> */}
             
             {/* Route Etp-Vehicle */}
